@@ -8,3 +8,6 @@ mainGreeting.innerText = 'Hey Treasure!!';
 
 // Using textContent
 mainGreeting.textContent = 'Tell me it changed!';
+
+// Modifying HTML
+mainGreeting.innerHTML = '<article>Life is Good!!</article>';
