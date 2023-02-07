@@ -18,3 +18,9 @@ const mainHeading = document.querySelector('h1');
 mainHeading.style.color = 'teal';
 mainHeading.style.backgroundColor = 'yellow';
 
+// Modifying Attributes
+const firstInput = document.querySelector('input');
+
+firstInput.getAttribute('type'); // text
+
+firstInput.setAttribute('type', 'email');
