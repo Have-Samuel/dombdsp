@@ -34,12 +34,17 @@ for (let img of allImgs) {
   img.style.borderRadius = '1rem';
 }
 
-const imgs = document.querySelectorAll('img');
-for (let img of imgs) {
-  console.log(img.getAttribute('src'));
-}
-
 const input = document.querySelector('input');
 // input.setAttribute('type', 'checkbox');
 
 input.setAttribute('placeholder', 'I like piglets!');
+
+const imgs = document.querySelectorAll('img');
+// for (let img of imgs) {
+//   console.log(img.getAttribute('src'));
+// }
+// LOOPING THRO IMAGE1 SO THAT ALL OTHER IMGAGES ARE GONE
+const src = imgs[0].getAttribute('src');
+for (let img of imgs) {
+  img.setAttribute('src', src);
+}
