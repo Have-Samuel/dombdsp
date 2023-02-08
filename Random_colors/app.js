@@ -13,8 +13,10 @@ function randomColor() {
 
 const letters = document.querySelectorAll('.letter');
 
-setInterval(function() {
+const intervalId = setInterval(function() {
   for (let letter of letters) {
     letter.style.color = randomColor();
   }
-}, 500);
+}, 1000);
+
+// clearInterval(intervalId);
