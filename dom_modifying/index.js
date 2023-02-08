@@ -33,3 +33,13 @@ for (let img of allImgs) {
   img.style.border = '5px solid teal';
   img.style.borderRadius = '1rem';
 }
+
+const imgs = document.querySelectorAll('img');
+for (let img of imgs) {
+  console.log(img.getAttribute('src'));
+}
+
+const input = document.querySelector('input');
+// input.setAttribute('type', 'checkbox');
+
+input.setAttribute('placeholder', 'I like piglets!');
