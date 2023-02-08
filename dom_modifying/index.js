@@ -18,7 +18,7 @@ allH3s.style.fontSize = '40px';
 const allH2s = document.getElementsByTagName('h2');
 
 for (let h2 of allH2s) {
-  h2.style.color = 'magenta';
+  // h2.style.color = 'magenta';
   h2.style.fontSize = '35px';
 }
 
@@ -48,3 +48,9 @@ const src = imgs[0].getAttribute('src');
 for (let img of imgs) {
   img.setAttribute('src', src);
 }
+
+const quote = document.querySelector('blockquote');
+quote.setAttribute('class', 'section-title');
+
+const h2 = document.querySelector('h2');
+h2.setAttribute('class', 'big');
