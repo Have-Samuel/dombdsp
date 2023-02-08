@@ -1,26 +1,12 @@
-// Accessing text
-const mainGreeting = document.getElementById('main-greeting');
+const btn = document.getElementById('submit');
 
-console.log(mainGreeting.innerText);
+btn.innerText = 'Release';
 
-// Modifying Text
-mainGreeting.innerText = 'Hey Treasure!!';
+const ol = document.querySelector('ol');
 
-// Using textContent
-mainGreeting.textContent = 'Tell me it changed!';
+ol.innerText = 'Love is good!';
 
-// Modifying HTML
-mainGreeting.innerHTML = '<article>Life is Good!!</article>';
+const i = document.querySelector('i');
+const caps = i.innerText.toUpperCase();
 
-// styling the Dom
-const mainHeading = document.querySelector('h1');
-
-mainHeading.style.color = 'teal';
-mainHeading.style.backgroundColor = 'yellow';
-
-// Modifying Attributes
-const firstInput = document.querySelector('input');
-
-firstInput.getAttribute('type'); // text
-
-firstInput.setAttribute('type', 'email');
+i.innerText = caps;
