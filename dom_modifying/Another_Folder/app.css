@@ -1,0 +1,14 @@
+.todo {
+  font-size: 3rem;
+  color: magenta;
+}
+
+.todo:hover {
+  background-color: #d6d2d2;
+  transition: all 1000ms;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: mediumblue;
+}
