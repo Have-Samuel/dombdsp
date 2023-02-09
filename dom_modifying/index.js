@@ -54,3 +54,6 @@ quote.setAttribute('class', 'section-title');
 
 const h2 = document.querySelector('h2');
 h2.setAttribute('class', 'big');
+
+const range = document.querySelector('input[type="range"]');
+range.value = 10;
