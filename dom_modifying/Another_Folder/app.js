@@ -13,4 +13,17 @@ function toggleAllTodos() {
     li.classList.toggle('completed');
   }
 }
-toggleAllTodos();
+// toggleAllTodos();
+const h1 = document.querySelector('h1');
+
+setInterval(function () {
+  if (h1.classList.contains('big')) {
+    h1.textContent = 'SAD!'
+    h1.style.color = 'teal'
+  } else {
+    h1.textContent = 'HAPPY!';
+    h1.style.color = 'red';
+  }
+  h1.classList.toggle('big');
+  h1.classList.toggle('small');
+}, 1000);

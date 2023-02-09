@@ -12,3 +12,18 @@
   text-decoration: line-through;
   color: mediumblue;
 }
+
+h1 {
+  transition: all 1s;
+  text-align: center;
+}
+
+.big {
+  transform: scale(2);
+  color: magenta;
+}
+
+.small {
+  transform: scale(0.5);
+  color: teal;
+}
