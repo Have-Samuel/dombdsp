@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 function randomColor() {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
@@ -13,8 +14,9 @@ function randomColor() {
 
 const letters = document.querySelectorAll('.letter');
 
-const intervalId = setInterval(function() {
-  for (let letter of letters) {
+// eslint-disable-next-line no-unused-vars
+const intervalId = setInterval(() => {
+  for (const letter of letters) {
     letter.style.color = randomColor();
   }
 }, 1000);
