@@ -13,10 +13,7 @@ newTodo.classList.add('todo');
 newLi.textContent = 'Treat the chickens(Madication)';
 fastLi.textContent = 'Feed the animals';
 fastLi.className = 'todo';
-newImg.setAttribute(
-  'src',
-  'https://i.ytimg.com/vi/BgKUmzkFKUo/maxresdefault.jpg'
-);
+newImg.setAttribute('src', 'https://i.ytimg.com/vi/BgKUmzkFKUo/maxresdefault.jpg');
 newImg.style.width = '500px';
 
 newTodo.append(boldText);
