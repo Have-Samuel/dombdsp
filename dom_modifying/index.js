@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 // const btn = document.getElementById('submit');
 
 // btn.innerText = 'Release';
@@ -17,7 +18,7 @@ allH3s.style.fontSize = '40px';
 
 const allH2s = document.getElementsByTagName('h2');
 
-for (let h2 of allH2s) {
+for (const h2 of allH2s) {
   // h2.style.color = 'magenta';
   h2.style.fontSize = '35px';
 }
@@ -28,7 +29,7 @@ h1.style.backgroundColor = 'yellow';
 
 const allImgs = document.getElementsByTagName('img');
 
-for (let img of allImgs) {
+for (const img of allImgs) {
   img.style.width = '400px';
   img.style.border = '5px solid teal';
   img.style.borderRadius = '1rem';
@@ -45,7 +46,7 @@ const imgs = document.querySelectorAll('img');
 // }
 // LOOPING THRO IMAGE1 SO THAT ALL OTHER IMGAGES ARE GONE
 const src = imgs[0].getAttribute('src');
-for (let img of imgs) {
+for (const img of imgs) {
   img.setAttribute('src', src);
 }
 
