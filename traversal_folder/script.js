@@ -5,6 +5,6 @@ const section = ul.parentElement.parentElement;
 
 console.log(section);
 
-h1.previousElementSibling;
+h1.previousElementSibling; //=> null
 
-h1.nextElementSibling.nextElementSibling;
+h1.nextElementSibling.nextElementSibling; //=> <div>Here is the second div!</div>
