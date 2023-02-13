@@ -39,3 +39,15 @@ form.addEventListener('submit', (e) => {
   section.append(newLogo);
   brandInput.value = '';
 });
+
+// document.addEventListener('keypress', (e) => {
+//   console.log('KEY PRESS!', e.key);
+// });
+
+// document.addEventListener('keydown', (e) => {
+//   console.log('KEY PRESS!', e.key);
+// });
+
+document.addEventListener('keyup', (e) => {
+  console.log('KEY PRESS!', e.key);
+});
