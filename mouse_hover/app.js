@@ -5,5 +5,5 @@ document.addEventListener('mousemove', (e) => {
   const b = Math.floor((e.pageY * 255) / window.innerHeight);
   const color = `rgb(${r}, 0, ${b})`;
   document.body.style.backgroundColor = color;
-  console.log(r, b);
+  // console.log(r, b);
 });
