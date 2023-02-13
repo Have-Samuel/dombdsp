@@ -12,5 +12,6 @@ link.addEventListener('click', (e) => {
 
 const checkBox = document.querySelector('input[type= "checkbox"]');
 checkBox.addEventListener('click', (e) => {
+  e.preventDefault();
   console.log('NO CHECKING THIS BOX GUY!!!');
 });
