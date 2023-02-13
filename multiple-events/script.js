@@ -16,6 +16,9 @@ form.addEventListener('submit', (e) => {
   const newFriend = document.createElement('li');
   const btnRemover = document.createElement('button');
   btnRemover.innerText = 'Remove';
+  btnRemover.addEventListener('click', (e) => { // one way to remove the added 'li'
+    e.target.parentElement.remove();
+  });
   newFriend.innerText = input.value;
   input.value = '';
   newFriend.append(btnRemover);
