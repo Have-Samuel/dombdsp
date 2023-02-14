@@ -13,6 +13,6 @@
 
 // const prefs = JSON.parse(localStorage.preferences);
 
-const { favColor } = JSON.parse(localStorage.preferences);
+// const { favColor } = JSON.parse(localStorage.preferences);
 
-document.body.style.backgroundColor = favColor;
+// document.body.style.backgroundColor = favColor;
