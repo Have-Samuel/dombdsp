@@ -28,7 +28,7 @@ function makeLogo(text, color, size) {
   const logo = document.createElement('h2');
   logo.innerText = text;
   logo.style.color = color;
-  logo.style.fontSize = size + 'px';
+  logo.style.fontSize = `${size}px`;
   return logo;
 }
 
@@ -48,6 +48,6 @@ form.addEventListener('submit', (e) => {
 //   console.log('KEY PRESS!', e.key);
 // });
 
-document.addEventListener('keyup', (e) => {
-  console.log('KEY PRESS!', e.key);
-});
+// document.addEventListener('keyup', (e) => {
+// console.log('KEY PRESS!', e.key);
+// });

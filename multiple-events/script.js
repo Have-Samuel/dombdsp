@@ -30,7 +30,7 @@ const input = document.querySelector('#first-name');
 const friendList = document.querySelector('#friend-list');
 
 friendList.addEventListener('click', (e) => {
-  console.log(e.target.tagName);
+  // console.log(e.target.tagName);
   if (e.target.tagName === 'BUTTON') {
     e.target.parentElement.remove();
   } else if (e.target.tagName === 'LI') {
