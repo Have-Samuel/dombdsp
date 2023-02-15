@@ -1,5 +1,10 @@
 body {
-  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+  /* background-color: rgb(39, 35, 63);
+  color: mistyrose; */
 }
 
 input[type=checkbox] {
@@ -45,10 +50,10 @@ input:checked + label::after {
 }
 
 .dark {
-  background-color: darkslateblue;
-  color: white;
+  background-color: rgb(203, 198, 231);
+  color: #df1919;
 }
 
 .dark a {
-  color: lightskyblue;
+  color: #1b832c;
 }

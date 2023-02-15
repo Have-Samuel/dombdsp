@@ -16,3 +16,5 @@
 // const { favColor } = JSON.parse(localStorage.preferences);
 
 // document.body.style.backgroundColor = favColor;
+
+const toggleSwitch = document.querySelector('input[type="checkbox"]');
