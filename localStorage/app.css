@@ -1,12 +1,3 @@
-body {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; */
-  /* background-color: rgb(39, 35, 63);
-  color: mistyrose; */
-}
-
 input[type=checkbox] {
   height: 0;
   width: 0;
